@@ -20,6 +20,8 @@
 		0DE0EF352C65719200E0F172 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0EF342C65719200E0F172 /* SearchViewController.swift */; };
 		0DE0EF372C6571B900E0F172 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0EF362C6571B900E0F172 /* DownloadViewController.swift */; };
 		0DE0EF3E2C657B8000E0F172 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0EF3D2C657B8000E0F172 /* CollectionTableViewCell.swift */; };
+		0DE3C16D2C691A5000FAE250 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3C16C2C691A5000FAE250 /* HeroHeaderUIView.swift */; };
+		0DE3C16F2C692DAB00FAE250 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3C16E2C692DAB00FAE250 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		0DE0EF342C65719200E0F172 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0DE0EF362C6571B900E0F172 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		0DE0EF3D2C657B8000E0F172 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		0DE3C16C2C691A5000FAE250 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		0DE3C16E2C692DAB00FAE250 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE0EF3D2C657B8000E0F172 /* CollectionTableViewCell.swift */,
+				0DE3C16C2C691A5000FAE250 /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 		0DE0EF3C2C657B4500E0F172 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				0DE3C16E2C692DAB00FAE250 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -320,7 +326,9 @@
 				0DE0EF352C65719200E0F172 /* SearchViewController.swift in Sources */,
 				0DE0EF042C656F8800E0F172 /* MainTabBarViewController.swift in Sources */,
 				0DE0EF002C656F8800E0F172 /* AppDelegate.swift in Sources */,
+				0DE3C16D2C691A5000FAE250 /* HeroHeaderUIView.swift in Sources */,
 				0DE0EF372C6571B900E0F172 /* DownloadViewController.swift in Sources */,
+				0DE3C16F2C692DAB00FAE250 /* APICaller.swift in Sources */,
 				0DE0EF022C656F8800E0F172 /* SceneDelegate.swift in Sources */,
 				0DE0EF332C65716400E0F172 /* UpcomingViewController.swift in Sources */,
 				0DE0EF312C65713F00E0F172 /* HomeViewController.swift in Sources */,
@@ -503,7 +511,8 @@
 				INFOPLIST_FILE = UIKitLearn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,7 +540,8 @@
 				INFOPLIST_FILE = UIKitLearn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
